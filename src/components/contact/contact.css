@@ -43,7 +43,6 @@ input , textarea{
 }
 
 
-
 /* media queries medium devices*/
 
 @media screen and (max-width: 1024px){
@@ -65,6 +64,10 @@ input , textarea{
     .container.contact__container{
         width: var(--container-width-sm);
 
+
+    }
+    .contact__option{
+        gap: 2rem;
+ 
     }
 }
-    

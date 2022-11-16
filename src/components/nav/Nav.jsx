@@ -13,7 +13,7 @@ const Nav = () => {
     <nav>
 
         
-        <a href="#about" className={activeNav === '#' ? 'active' : ''}><BiHomeHeart/></a>
+        <a href="#" className={activeNav === '#' ? 'active' : ''}><BiHomeHeart/></a>
       
         <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><FaUserAlt/></a>
         <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBook/></a>
